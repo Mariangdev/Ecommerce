@@ -4,6 +4,8 @@ import Tittle  from './components/titulo';
 import "./components/styles/App.css";
 import Welcome from './components/ItemListContainer';
 import "./components/styles/App.css"
+import CounterFunctional from "./components/ItemCount";
+
 function App() {
   return (
     <div className="Header">
@@ -13,11 +15,21 @@ function App() {
       <CartWidget/>
       
       </div>
-    </div>
+       </div>
+  
   );
 
 }
+  // Acá hice un contador, pero si llamo a la funcion la funtcion App no se muestra, estoy medio confundido.  
+/*function ItemCount() {
+  return (
+    <div>
+     <CounterFunctional/>
+       </div>
+  );
 
+}
+*/
 function ItemListContainer () { 
   return (
     <div className="App">
