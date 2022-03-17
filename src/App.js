@@ -10,7 +10,11 @@ function App() {
   return (
     <div className="Header">
       <Tittle />
+      <nav >
       <Sidebar />  
+      <CounterFunctional/>
+
+      </nav>
       <div className='Logo'>
       <CartWidget/>
       
