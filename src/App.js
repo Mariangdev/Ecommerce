@@ -24,22 +24,5 @@ function App() {
   );
 
 }
-  // Acá hice un contador, pero si llamo a la funcion la funtcion App no se muestra, estoy medio confundido.  
-/*function ItemCount() {
-  return (
-    <div>
-     <CounterFunctional/>
-       </div>
-  );
-
-}
-*/
-function ItemListContainer () { 
-  return (
-    <div className="App">
-    <Welcome name="John"/>
-  </div>
-   
-  );
-}
+ 
 export default App;
