@@ -1,9 +1,11 @@
-import Image from "./img/carrito.png";
-
-function CartWidget() {
-    return(
-       <img  src={Image}/>
-    )
+import image from "./Image/carrito.png";
+export default class CartWidget  {
+  render() {
+    return (
+      <div>
+        <img src={image} />
+      </div>
+    );
+  }
 }
-
-export default CartWidget
+Siempre 
